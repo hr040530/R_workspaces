@@ -48,8 +48,13 @@ print(tail(people,3))
 # 힌트: people$'새로운컬럼명' = '값'
 people$weight=c(52,77,81,46)
 print(people)
+
 #나이가 30 이상인 사람들만 출력하는 코드를 작성하세요.
 # 힌트: 데이터프레임 필터링은 대괄호 [ ]를 사용합니다.
+olderage=people[people$age>=30,]
+print(olderage)
 
 #name , age 두개의 컬럼으로 구성된 새로운 데이터 프레임을 정의하기.
 # 힌트 : [,c('','')]
+result=people[,c('name','age')]
+print(result)
