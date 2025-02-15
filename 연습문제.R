@@ -1,3 +1,4 @@
+## 기초문법 문제
 # 주어진 코드
 x = 42
 y = "R 프로그래밍"
@@ -9,6 +10,7 @@ print(typeof(x))
 print(typeof(y))
 print(typeof(z))
 
+# 벡터의 요소 선택
 # 다음 벡터에서 20보다 큰 숫자만 선택하여 출력하세요.
 # 주어진 벡터
 numbers = c(10, 15, 20, 25, 30, 35)
@@ -16,7 +18,7 @@ numbers = c(10, 15, 20, 25, 30, 35)
 than_20=numbers[numbers>20]
 print(than_20)
 
-
+## 데이터프레임 기초문제
 # 주어진 데이터프레임
 people = data.frame(
   name = c("Alice", "Bob", "Charlie", "Diana"),
